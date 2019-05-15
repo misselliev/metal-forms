@@ -10,22 +10,42 @@
   
 </form>-->
 
+<%= form_tag @user do |f| %>
+  <div>
+    <%= label_tag 'username'%>
+    <%= text_field_tag (:username) %>
+  </div>
+  <br>
+  <div>
+    <%= label_tag 'email'%>
+    <%= text_field_tag (:email) %>
+  </div>
+  <br>
+  <div>
+    <%= label_tag "password"%>
+    <%= password_field_tag (:password) %>
+  </div>  <br>
+  <div>
+    <%= submit_tag 'Create' %>
+  </div>
+<% end %>
+
 <%= form_for @user do |f| %>
   <div>
-    <%= f.label 'Username'%>
+    <%= f.label 'Username' %>
     <%= f.text_field :username %>
   </div>
   <br>
   <div>
-    <%= f.label 'Email'%>
+    <%= f.label 'Email' %>
     <%= f.text_field :email %>
   </div>
   <br>
   <div>
-    <%= f.label "Password"%>
+    <%= f.label "Password" %>
     <%= f.password_field :password %>
   </div>  <br>
   <div>
     <%= f.submit 'Create' %>
   </div>
-<% end %>
+<% end %>  
