@@ -1,24 +1,14 @@
-# README
+# Metal forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Practicing different types of building forms on ruby on rails.
 
-Things you may want to cover:
+## Developers Team
 
-* Ruby version
+ - [Santiago Torres](https://github.com/stiakov)
+ - [Elizabeth Villalejos](https://github.com/misselliev/)
 
-* System dependencies
+## Versions
+  - Ruby: 2.6.0
+  - Rails: 5.2.3 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+"Looking at code you wrote more than two weeks ago is like looking at code you are seeing for the first time." Dan Hurvitz
